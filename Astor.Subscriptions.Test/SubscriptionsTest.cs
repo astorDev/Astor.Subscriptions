@@ -1,19 +1,14 @@
 using System;
 using System.Collections.Generic;
-using System.Security.Authentication.ExtendedProtection;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Xml;
 using Example.Application;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Newtonsoft.Json;
 using RabbitMQ.Client;
 
-namespace Astor.Subscriptions.Tests
+namespace Astor.Subscriptions.Test
 {
     [TestClass]
     public class SubscriptionsTest
